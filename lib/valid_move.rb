@@ -3,6 +3,8 @@ def valid_move?(board, position)
   spot= position.to_i-1
   if spot= board[position] == " " || board[position] == "" || board[position] == nil
     true
+  else
+    false
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
